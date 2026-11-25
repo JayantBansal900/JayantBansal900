@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=JayantBansal900&label=Profile%20views&color=7aa2f7&style=flat-square" alt="Profile views"/>
   <a href="https://github.com/JayantBansal900?tab=followers"><img src="https://img.shields.io/github/followers/JayantBansal900?label=Followers&style=flat-square&color=bb9af7&logo=github" alt="Followers"/></a>
-  <a href="https://github.com/JayantBansal900?tab=repositories"><img src="https://img.shields.io/badge/Projects-10%2B-9ece6a?style=flat-square&logo=github" alt="Projects"/></a>
+  <a href="https://github.com/JayantBansal900?tab=repositories"><img src="https://img.shields.io/badge/Projects-14-9ece6a?style=flat-square&logo=github" alt="Projects"/></a>
   <img src="https://img.shields.io/badge/Open%20to-Opportunities-f7768e?style=flat-square" alt="Open to opportunities"/>
 </p>
 
@@ -60,59 +60,27 @@ const jayant = {
   <img src="https://skillicons.dev/icons?i=sklearn,opencv,git,github,vscode,idea,postman,linux&theme=dark" alt="AI and tools"/>
 </p>
 
-<!-- ============================== FEATURED ============================== -->
-## 🚀 Featured projects
+<!-- ============================== PROJECTS ============================== -->
+## 🛠️ Projects
 
-### 🛒 [QuickKart](https://github.com/JayantBansal900/QuickKart): microservice e-commerce platform
-
-![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.5-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-A React storefront and admin panel on top of Spring Boot services behind an API gateway, with PostgreSQL, Redis and Kafka.
-
-```text
- Browser ─▶ nginx + React ─▶ API Gateway :8080  (routing · CORS · correlation id)
-                                 │
-          ┌──────────────────────┼───────────────────────┐
-          ▼                      ▼                       ▼
-   Product service         Order service            Monolith
-   catalog · search        cart · checkout          auth · admin · email
-   ⇅ Redis cache           outbox relay ──▶ Kafka ──▶ consumer ──▶ SMTP
-          └──────────────── PostgreSQL ──────────────────┘
-```
-
-- 🔒 **No overselling:** checkout locks product rows (`SELECT … FOR UPDATE`) and checks stock in one transaction
-- 🔁 **No double orders:** idempotency keys + cart fingerprints; a repeated checkout returns the same order
-- 📬 **No lost events:** a **transactional outbox** writes the event with the order, and a relay publishes it to Kafka
-- ♻️ **No duplicate emails:** idempotent consumer, retries and a dead-letter topic
-- ⚡ **Fast catalog:** Redis-cached search at **687 req/s, p95 ≈ 50 ms** (load-tested)
-- 🛡️ **Security:** JWT revoked on password reset, HMAC-hashed OTPs, per-email and per-IP rate limiting
-- ✅ **CI:** GitHub Actions with Testcontainers and an embedded Kafka
-
-<br/>
-
-### 📊 [Segmentra](https://github.com/JayantBansal900/customer-segmentation): customer segmentation platform · [**Live demo**](https://segmentra.vercel.app)
-
-<a href="https://segmentra.vercel.app"><img src="https://raw.githubusercontent.com/JayantBansal900/customer-segmentation/main/docs/screenshots/home.jpg" alt="Segmentra screenshot" width="100%"/></a>
-
-Upload transaction data and get explorable customer segments: **RFM features + KMeans clustering**, silhouette and PCA model diagnostics, per-customer drill-down, and CSV exports, all in a responsive React UI.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-<br/>
-
-### More things I've built
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🌾 <a href="https://github.com/JayantBansal900/ProFarm-V2">ProFarm V2</a></h4>
+      Farming knowledge platform for Indian farmers: crop and soil guidance, weather, mandi prices and farm planning in <b>5 languages</b>.<br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛒 <a href="https://github.com/JayantBansal900/ecommerce-mern">MERN E-Commerce</a></h4>
+      Full-stack store with JWT in HttpOnly cookies, CSRF protection, <b>Razorpay</b> payments and an admin revenue dashboard.<br/><br/>
+      <img src="https://img.shields.io/badge/MERN-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white"/>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>✈️ <a href="https://github.com/JayantBansal900/AI-trip-planner">PushpakUdaan</a></h4>
@@ -165,8 +133,7 @@ Upload transaction data and get explorable customer segments: **RFM features + K
 
 | Project | Description | Stack |
 |---|---|---|
-| [ecommerce-mern](https://github.com/JayantBansal900/ecommerce-mern) | E-commerce with JWT auth, Razorpay payments and role-based access | MERN |
-| [url-shortener-api](https://github.com/JayantBansal900/url-shortener-api) | URL shortener REST API | Node.js · Express · MongoDB |
+| [url-shortener-api](https://github.com/JayantBansal900/url-shortener-api) | URL shortener REST API with click tracking | Node.js · Express · MongoDB |
 | [luffy-stretch](https://github.com/JayantBansal900/luffy-stretch) | Real-time face-stretch effect controlled by hand pinch gestures | Python · MediaPipe · OpenCV |
 | [review-analytics-dashboard](https://github.com/JayantBansal900/review-analytics-dashboard) | Sentiment dashboard for e-commerce reviews | HTML · CSS · JS |
 | [Recipe-App](https://github.com/JayantBansal900/Recipe-App) · [Live](https://jayantbansal900.github.io/Recipe-App/) | Search and filter recipes with TheMealDB API | JavaScript |
