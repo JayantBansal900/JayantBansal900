@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=JayantBansal900&label=Profile%20views&color=7aa2f7&style=flat-square" alt="Profile views"/>
   <a href="https://github.com/JayantBansal900?tab=followers"><img src="https://img.shields.io/github/followers/JayantBansal900?label=Followers&style=flat-square&color=bb9af7&logo=github" alt="Followers"/></a>
-  <a href="https://github.com/JayantBansal900?tab=repositories"><img src="https://img.shields.io/badge/Projects-14-9ece6a?style=flat-square&logo=github" alt="Projects"/></a>
+  <a href="https://github.com/JayantBansal900?tab=repositories"><img src="https://img.shields.io/badge/Projects-15-9ece6a?style=flat-square&logo=github" alt="Projects"/></a>
   <img src="https://img.shields.io/badge/Open%20to-Opportunities-f7768e?style=flat-square" alt="Open to opportunities"/>
 </p>
 
