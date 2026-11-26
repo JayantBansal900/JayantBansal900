@@ -26,7 +26,8 @@ I'm a **full-stack developer** who enjoys turning ideas into complete, deployed 
 - ⚙️ **Backend first:** Java, Spring Boot, microservices, event-driven systems with Kafka
 - 🌐 **Full-stack:** MERN, NestJS, React + TypeScript, Tailwind
 - 🤖 **Applied AI:** RAG pipelines, semantic search (FAISS), LLM apps with Gemini, ML clustering
-- 🔭 Currently building **[QuickKart](https://github.com/JayantBansal900/QuickKart)**, a Spring Boot microservice e-commerce platform
+- 🔭 Currently building **[VAYU](https://github.com/JayantBansal900/QuickKart)** (formerly QuickKart), a men's clothing brand and online store on Spring Boot microservices, Kafka and React
+- 🌾 Recently shipped **[ProFarm V2](https://github.com/JayantBansal900/ProFarm-V2)**, a farming knowledge platform for Indian farmers in 5 languages
 - 🎯 Looking for **SDE internships and full-time roles**
 - 💬 Ask me about **Spring Boot, MERN, system design, or RAG**
 
@@ -35,10 +36,11 @@ I'm a **full-stack developer** who enjoys turning ideas into complete, deployed 
 ```js
 const jayant = {
   role: "Full-Stack Developer",
-  backend: ["Java", "Spring Boot", "Node.js", "Express", "NestJS"],
+  backend: ["Java", "Spring Boot", "Node.js", "Express", "NestJS", "Prisma"],
   frontend: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-  data: ["PostgreSQL", "MongoDB", "Redis", "Kafka"],
+  data: ["PostgreSQL", "MongoDB", "SQLite", "Redis", "Kafka", "Flyway"],
   ai: ["RAG", "FAISS", "Gemini", "scikit-learn"],
+  testing: ["JUnit", "Testcontainers", "Vitest", "Jest"],
   devops: ["Docker", "GitHub Actions", "Vercel", "Render"],
   currentFocus: "Distributed systems & production-grade backends",
 };
@@ -54,10 +56,10 @@ const jayant = {
   <img src="https://skillicons.dev/icons?i=spring,nodejs,express,nestjs,fastapi,flask,react,tailwind,vite&theme=dark" alt="Frameworks"/>
 </p>
 <p align="center"><b>Databases, Messaging & DevOps</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka,docker,githubactions,vercel,maven&theme=dark" alt="Data and DevOps"/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,prisma,redis,kafka,docker,githubactions,vercel,maven&theme=dark" alt="Data and DevOps"/>
 </p>
 <p align="center"><b>AI / ML & Tools</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=sklearn,opencv,git,github,vscode,idea,postman,linux&theme=dark" alt="AI and tools"/>
+  <img src="https://skillicons.dev/icons?i=sklearn,opencv,jest,vitest,git,github,vscode,idea,postman,linux&theme=dark" alt="AI and tools"/>
 </p>
 
 <!-- ============================== STATS ============================== -->
