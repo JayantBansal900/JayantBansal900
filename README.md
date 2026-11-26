@@ -26,7 +26,6 @@ I'm a **full-stack developer** who enjoys turning ideas into complete, deployed 
 - ⚙️ **Backend first:** Java, Spring Boot, microservices, event-driven systems with Kafka
 - 🌐 **Full-stack:** MERN, NestJS, React + TypeScript, Tailwind
 - 🤖 **Applied AI:** RAG pipelines, semantic search (FAISS), LLM apps with Gemini, ML clustering
-- 🔭 Currently building **[VAYU](https://github.com/JayantBansal900/QuickKart)** (formerly QuickKart), a men's clothing brand and online store on Spring Boot microservices, Kafka and React
 - 🌾 Recently shipped **[ProFarm V2](https://github.com/JayantBansal900/ProFarm-V2)**, a farming knowledge platform for Indian farmers in 5 languages
 - 🎯 Looking for **SDE internships and full-time roles**
 - 💬 Ask me about **Spring Boot, MERN, system design, or RAG**
